@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "topic.name-format",
+      "type": "java.lang.String",
+      "description": "Description for topic.name-format."
+    },
+    {
+      "name": "topic.name-with-networkId-format",
+      "type": "java.lang.String",
+      "description": "Description for topic.name-with-networkId-format."
+    },
+    {
+      "name": "topic.groupIdPrefix",
+      "type": "java.lang.String",
+      "description": "Description for topic.groupIdPrefix."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+server:
+  port: 8096
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      client-id: topicqueryservice-${server.port}
+    client-id: topicqueryserviceA-${server.port}
+topic:
+  groupIdPrefix: topic-query-group
+
